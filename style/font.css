@@ -1,0 +1,14 @@
+.banner-text {
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.links {
+
+}
+
+a {
+  text-decoration: none;
+}
