@@ -1,0 +1,46 @@
+.banner-img {
+  position: relative;
+}
+
+.banner-img::before {
+  content: "";
+  position: absolute;
+  top: 0px; left: 0px; bottom:0; right: 0;
+  background-position-y: 35%;
+  background-image: url('../images/banner-opt.jpg');
+  background-size: cover;
+  filter: blur(2px);
+  opacity: 0.75;
+}
+
+
+.banner-txt {
+  position: relative;
+  text-shadow: 0 0 5px black;
+  width: 90%;
+  color: #f2f2f2;
+}
+
+
+.banner-txt > h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  flex-grow: 1;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+.banner-txt > h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+
+hr {
+  box-shadow: 0 0 3px black;
+}
+
+
+
