@@ -1,0 +1,11 @@
+.avatar {
+  margin-left: 4.3rem;
+}
+
+.avatar > img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border-style: dotted;
+}

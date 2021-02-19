@@ -15,12 +15,16 @@
 
 .about-container {
   background-color: white;
+  display: flex;
+  align-items: center;
+  height: 75vh;
 }
 
 .skills-container {
   background-color: black;
   color: white;
   text-align: center;
+  margin-top: 0;
 }
 
 .skills-col {
@@ -28,6 +32,12 @@
   flex-direction: row;
   justify-content: space-around;
   text-align: left;
+}
+
+.about-txt {
+  margin-right: 6rem;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
 }
 
 .projects-container {
@@ -40,6 +50,29 @@
   text-align: center;
 }
 
+.center-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .footer {
   background-color: white;
 }
+
+.no-margin {
+  margin: 0;
+}
+
+.about-pg {
+  line-height: 1.6;
+  margin: 2.5rem 0;
+}
+
