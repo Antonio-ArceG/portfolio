@@ -3,6 +3,7 @@
 @import url("font.css");
 @import url("banner.css");
 @import url("avatar.css");
+@import url('card.css');
 
 body {
 margin: 0;
@@ -14,37 +15,4 @@ ul {
 }
 
 
-
-.profile {
-  color: white;
-  background-color: #000000;
-  display: flex;
-
-}
-
-.profile-title {
-  font-family: 'League Script', cursive;
-  color: rgba(254, 60, 204, 0.9);
-  text-shadow: 1px 1px 2px rgba(254, 60, 204, 0.4);
-  text-decoration-line: underline;
-  text-decoration-style: double;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px 10%;
-}
-
-.profile-description {
-  background-image: url("../images/neon_rain.jpg");
-  color: white;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  flex-grow: 1;
-  text-align: middle;
-
-}
 
