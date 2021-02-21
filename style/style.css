@@ -4,6 +4,7 @@
 @import url("banner.css");
 @import url("avatar.css");
 @import url('card.css');
+@import url('navbar.css');
 
 body {
 margin: 0;

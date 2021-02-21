@@ -1,10 +1,11 @@
 .site-container {
   margin: auto auto;
+  height: 100vh;
 }
 
 .banner-container {
   background-color: black;
-  height: 90vh;
+  height: 100vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -42,6 +43,7 @@
 
 .projects-container {
   background-color: white;
+  padding-top: 3rem;
 }
 
 .pubs-container {
@@ -49,6 +51,14 @@
   color: white;
   padding-top: 3rem;
   padding-bottom: 4rem;
+}
+
+.pro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 0 2rem 0;
 }
 
 .center-flex {
