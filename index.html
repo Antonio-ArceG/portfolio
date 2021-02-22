@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Antonio Arce - Portfolio</title>
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <script src="https://kit.fontawesome.com/4ec11f263b.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=League+Script&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <nav class="navbar">
-
-      </nav>
-   <main class="site-container">
+  <head>
+    <title>Antonio Arce - Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/4ec11f263b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/a2g.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-btn"><a href="#about">ABOUT</a></div>
+      <div class="nav-btn"><a href="#projects">PROJECTS</a></div>
+      <div class="nav-btn"><a href="#contact">CONTACT</a></div>
+    </nav>
+    <main class="site-container">
 
       <section class="banner-container banner-img">
         <div class="banner-txt">
@@ -25,10 +28,10 @@
           <h3 class="banner-tag">Junior Developer, Researcher and Chef</h3>
           <hr>
         </div>
-          <p class="btn-rounded">READ MORE</p>
+          <a href="#about"><p class="btn-rounded">READ MORE</p></a>
       </section>
 
-      <section class='about-container'>
+      <section id='about' class='about-container'>
         <figure class='avatar'>
           <img src="images/profile-pic.jpg" alt="profile picture">
         </figure>
@@ -37,13 +40,13 @@
           <h2 class='text-center no-margin'>ABOUT ME</h2>
           <p class='about-pg'>Ambitious graduate pursuing a career in web development eager to get my foot in the door! Adaptable and driven with strong work ethic and ability to thrive in team-based or individually motivated settings. Top-notch communication and multitasking skills with a proactive mentality and flexible approach to problem solving. Goal-oriented and proficient team player motivated to increase abilities and make a positive impact on team projects. Driven to continuously grow expertise in website development, programming and code testing. Desiring a challenging and growth-oriented position with Tallygroup.</p>
           <div class="center-flex">
-            <p class='btn-long'>SEE MY PROJECTS</p>
-            <p class='btn-long'>CONTACT ME</p>
+            <a href="#projects"><p class='btn-long'>SEE MY PROJECTS</p></a>
+            <a href="#contact"><p class='btn-long'>CONTACT ME</p></a>
           </div>
         </div>
       </section>
 
-      <section class="projects-container">
+      <section id='projects' class="projects-container">
         <h2 class='text-center no-margin'>PROJECTS</h2>
 
         <div class="pro-container">
@@ -88,7 +91,7 @@
 
           <div class="pro-card">
             <figure class='pro-img no-margin'>
-                <img src="images/portfolio.jpg" alt="re:live banner">
+                <img src="images/portfolio.jpg" alt="portfolio">
             </figure>
 
             <div class="pro-txt">
@@ -122,14 +125,10 @@
               <p class='stack'>Ruby-on-Rails, HTML, CSS, Bootstrap, GitHub, Heroku, PostgrSQL, Cloudinary</p>
             </div>
           </div>
-
-
-
-
         </div>
       </section>
 
-      <section class="pubs-container">
+      <section id='publications' class="pubs-container">
         <h2 class='text-center no-margin'>PUBLICATIONS</h2>
           <div class="flex-even pt">
               <div class="pub-card">
@@ -172,7 +171,7 @@
           </div>
       </section>
 
-      <footer class="footer">
+      <footer id='contact' class="footer">
         <div class="logo-box">
           <h1 class='logo no-margin'>A<span>2</span>g </h1>
         </div>
