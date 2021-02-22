@@ -7,7 +7,7 @@
   position: absolute;
   top: 0px; left: 0px; bottom:0; right: 0;
   background-position-y: 35%;
-  background-image: url('../images/banner-opt.jpg');
+  background-image: url('../../images/banner-opt.jpg');
   background-size: cover;
   filter: blur(2px);
   opacity: 0.75;
