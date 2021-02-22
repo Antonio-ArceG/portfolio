@@ -4,10 +4,10 @@
   height: 29rem;
   border-style: solid;
   border-width: thin;
-  box-shadow: 0 0 4px white;
+  box-shadow: 0 0 4px black;
   border-radius: 4px;
-  border-color: white;
-  color: white;
+  border-color: black;
+  color: black;
   transition: 0.2s ease-in-out;
   opacity: 1;
 }
@@ -18,7 +18,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgba(19, 49, 74, 0.95);
   border-radius: 4px;
   opacity: 0;
   margin: 0;
@@ -51,15 +51,16 @@
   opacity: 1;
 }
 
-.hidden-txt:hover {
+.hidden:hover .hidden-txt{
   opacity: 1;
 }
 
 .space {
   border-bottom-style: solid;
-  border-color: white;
+  border-color: black;
   border-width: thin;
   padding-top: 0.5rem;
+  background-color: rgb(249, 245, 241);
 }
 
 .pub-img {
@@ -67,6 +68,7 @@
   justify-content: center;
   max-height: 13rem;
   overflow: hidden;
+  background-color: rgb(249, 245, 241);
 }
 
 .pub-img > img {
@@ -79,8 +81,12 @@
 .pub-txt {
   text-align: center;
   margin: 1rem 2rem 0;
-  height: 30rem;
-  text-shadow: 0 0 5px black;
+  position: absolute;
+}
+
+.pub-txt > p {
+  font-style: italic;
+  color: #686868;
 }
 
 .pro-card {
@@ -91,15 +97,20 @@
   box-shadow: 0 0 4px black;
   margin-bottom: 2rem;
   width: 86%;
-  height: 12rem;
+  height: 13rem;
   transition: 0.3s ease-in-out;
   position: relative;
+  background-color: rgb(249, 245, 241);
 }
 
 .pro-card:hover {
   width: 87%;
-  height: 13rem;
+  height: 14rem;
   box-shadow: 0 0 20px 2px black;
+}
+
+.pro-card > a {
+  height: 13rem;
 }
 
 
@@ -119,9 +130,10 @@
 
 .pro-txt {
   padding: 0 2rem;
+  position: relative;
 }
 
-.pro-txt > a > h3 {
+.pro-txt > h3 {
   margin: 1rem 0;
 }
 
@@ -135,5 +147,25 @@
 
 .stack {
   font-style: italic;
-  color: #919191;
+  color: #686868;
+  margin-top: 0.1rem;
 }
+
+.pro-links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.4rem;
+  padding: 0.8rem 0.5rem 0 0;
+  /*background-color: rgba(226, 144, 68, 0.8);*/
+}
+
+.pro-links > a {
+  color: rgba(109, 105, 100, 0.9);
+  padding-right: 0.4rem;
+}
+
+.pro-links > a :hover {
+  color: rgba(19, 49, 74, 0.95);
+}
+

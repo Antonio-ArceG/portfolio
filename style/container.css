@@ -5,7 +5,7 @@
 
 .banner-container {
   background-color: black;
-  height: 100vh;
+  height: 45rem;
   position: relative;
   display: flex;
   justify-content: center;
@@ -15,10 +15,10 @@
 }
 
 .about-container {
-  background-color: white;
+  background-color: rgb(245, 245, 245);
   display: flex;
   align-items: center;
-  height: 75vh;
+  height: 32rem;
 }
 
 .skills-container {
@@ -42,13 +42,13 @@
 }
 
 .projects-container {
-  background-color: white;
+  background-color: rgba(243, 133, 5, 0.95);
   padding-top: 3rem;
 }
 
 .pubs-container {
-  background-color: black;
-  color: white;
+  background-color: rgb(245, 245, 245);
+  color: black;
   padding-top: 3rem;
   padding-bottom: 4rem;
 }
@@ -74,9 +74,6 @@
   text-align: center;
 }
 
-.footer {
-  background-color: white;
-}
 
 .no-margin {
   margin: 0;
