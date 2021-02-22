@@ -89,8 +89,14 @@
 }
 
 .about-pg {
-  line-height: 1.6;
+  line-height: 1.65;
   margin: 2.5rem 0;
+  column-count: 2;
+}
+
+.about-pg > span {
+  font-weight: 500;
+  color: rgb(47, 103, 150);
 }
 
 .pt {
