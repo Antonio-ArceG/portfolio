@@ -22,24 +22,5 @@
   font-weight: 400;
 }
 
-.btn-long {
-    border-style: solid;
-    border-color: black;
-    color: black;
-    font-size: 1rem;
-    border-radius: 25px;
-    border-width: thin;
-    font-weight: 400;
-    min-width: 25vmax;
-    text-align: center;
-    padding: 9px 0;
-    margin: 0 15px;
-}
-
-.btn-long:hover {
-  color: #f2f2f2;
-  background-color: black;
-}
-
 
 

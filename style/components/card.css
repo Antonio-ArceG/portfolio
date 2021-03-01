@@ -1,7 +1,7 @@
 .pub-card {
   position: relative;
   width: 30rem;
-  height: 29rem;
+  height: 27rem;
   border-style: solid;
   border-width: thin;
   box-shadow: 0 0 4px black;
@@ -10,6 +10,7 @@
   color: black;
   transition: 0.2s ease-in-out;
   opacity: 1;
+  margin-top: 3rem;
 }
 
 .hidden {
@@ -33,7 +34,6 @@
   flex-direction: column;
   width: 70%;
   height: 100%;
-
   color: white;
   justify-content: center;
   align-items: center;
@@ -98,15 +98,15 @@
   box-shadow: 0 0 4px black;
   margin-bottom: 2rem;
   width: 86%;
-  height: 13rem;
+  min-height: 13rem;
   transition: 0.3s ease-in-out;
   position: relative;
   background-color: rgb(249, 245, 241);
 }
 
 .pro-card:hover {
-  width: 87%;
-  height: 14rem;
+ /* width: 87%;
+  height: 14rem;*/
   box-shadow: 0 0 20px 2px black;
 }
 
@@ -114,24 +114,23 @@
   height: 13rem;
 }
 
-.pro-img {
+/*.pro-img {
   min-width: 21rem;
   max-width: 21rem;
   min-height: 12rem;
   margin: 0;
 }
-
+*/
 .pro-img > img {
-  width: 100%;
+  width: 21rem;
   height: 100%;
   object-fit: cover;
 
 }
 
 .pro-txt {
-  padding: 0 2rem;
+  padding: 1rem 2rem 1.5rem;
   position: relative;
-  width: 100%;
 }
 
 .pro-txt > h3 {
@@ -153,17 +152,28 @@
 }
 
 .pro-links {
-  position: absolute;
-  top: 0;
-  right: 0;
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0;*/
   font-size: 1.4rem;
-  padding: 0.8rem 0.5rem 0 0;
+  display: flex;
+  /*padding: 0.8rem 0.5rem 0 0;*/
   /*background-color: rgba(226, 144, 68, 0.8);*/
+}
+
+.pro-links > a:first-of-type {
+  padding-right: 0.6rem;
+}
+
+.pro-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .pro-links > a {
   color: rgba(109, 105, 100, 0.9);
-  padding-right: 0.4rem;
+  /*padding-right: 0.4rem;*/
 }
 
 .pro-links > a :hover {

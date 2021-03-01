@@ -1,6 +1,6 @@
 .navbar {
   position: fixed;
-  height: 3rem;
+  height: 2.5rem;
   left: 0;
   right: 0;
   background-color: black;
@@ -13,7 +13,7 @@
 }
 
 .nav-btn {
-  padding: 0.88rem 1rem;
+  padding: 0.65rem 1rem;
 }
 
 .nav-btn:hover {

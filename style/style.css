@@ -18,6 +18,93 @@ ul {
 
 html {
   scroll-behavior: smooth;
+  font-size: 100%;
 }
 
 
+@media(max-width: 560px) {
+/*  body {font-size: 1rem;}*/
+  .avatar {
+    margin: 0 0 2rem 0;
+    }
+
+  .navbar {
+    height: 5%;
+    width: 100vw;
+    justify-content: space-evenly;
+  }
+
+  .nav-btn {
+  padding: 0;
+  }
+
+  .nav-btn:hover {
+    color: rgba(243, 133, 5, 0.95);
+    background-color: transparent;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-pg {
+    margin: 2rem 2rem;
+    column-count: 1;
+  }
+
+  .pro-card {
+    flex-direction: column;
+    height: 100%;
+    width: 21rem;
+  }
+
+  .pub-flex {
+    flex-direction: column;
+  }
+
+  .pub-card {
+    width: 21rem;
+    height: 33rem;
+  }
+
+  .contacts * {
+    font-size: 1.8rem;
+  }
+
+  .logo {
+    font-size: 2.6rem;
+  }
+
+  .logo > span {
+    font-size: 1.3rem;
+  }
+
+  .footer {
+    height: 8rem;
+  }
+
+  .banner-txt > h1 {
+    font-size: 2rem;
+  }
+
+  .banner-txt > h3 {
+    font-size: 1.3rem;
+  }
+
+  .btn-rounded {
+    font-size: 0.8rem;
+  }
+
+  .btn-rounded:hover {
+    background-color: transparent;
+    color: #f2f2f2;
+  }
+}
+
+/*@media(max-width: 560px) {
+  body {font-size: 1rem;}
+}
+
+@media(max-width: 560px) {
+  body {font-size: 1rem;}
+}*/

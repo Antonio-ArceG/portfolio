@@ -1,24 +1,27 @@
 .site-container {
-  margin: auto auto;
+  margin: 0 auto;
   height: 100vh;
+  width: 100vw;
 }
 
 .banner-container {
   background-color: black;
-  height: 45rem;
+  height: 80%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
   text-align: center;
+  width: 100%;
 }
 
 .about-container {
   background-color: rgb(245, 245, 245);
   display: flex;
   align-items: center;
-  height: 32rem;
+  padding-top: 6vh;
+  width: 100%;
 }
 
 .skills-container {
@@ -35,22 +38,28 @@
   text-align: left;
 }
 
-.about-txt {
+/*.about-txt {
   margin-right: 6rem;
   margin-left: 2rem;
   padding-bottom: 2rem;
 }
-
+*/
 .projects-container {
   background-color: rgba(243, 133, 5, 0.95);
-  padding-top: 3rem;
+  padding-top: 6vh;
 }
 
 .pubs-container {
   background-color: rgb(245, 245, 245);
   color: black;
-  padding-top: 3rem;
+  padding-top: 6vh;
   padding-bottom: 4rem;
+}
+
+.pub-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .pro-container {
@@ -58,7 +67,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5rem 0 2rem 0;
+  padding-top: 6vh;
 }
 
 .center-flex {
@@ -90,7 +99,7 @@
 
 .about-pg {
   line-height: 1.65;
-  margin: 2.5rem 0;
+  margin: 2.5rem 4rem 2.5rem 0;
   column-count: 2;
 }
 
@@ -99,7 +108,4 @@
   color: rgb(47, 103, 150);
 }
 
-.pt {
-  padding-top: 2.5rem;
-}
 
